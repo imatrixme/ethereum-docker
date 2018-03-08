@@ -38,6 +38,6 @@ services:
     environment:
       - WS_SECRET=eth-net-stats-secret
     volumes:
-      - /usr/local/localtime:/etc/localtime:ro
+
     ports:
       - "3000:3000"
