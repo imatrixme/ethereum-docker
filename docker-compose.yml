@@ -37,7 +37,5 @@ services:
     container_name: netstats
     environment:
       - WS_SECRET=eth-net-stats-secret
-    volumes:
-
     ports:
       - "3000:3000"
